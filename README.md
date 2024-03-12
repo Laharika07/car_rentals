@@ -41,6 +41,7 @@ insert into vehicle values
 
 select * from vehicle;
 
+ -- creating table customer
 
 create table customer(
 customerID int primary key,
@@ -74,6 +75,8 @@ insert into customer values
 select * from customer;
 
 
+-- creating table lease
+
 create table lease(
 leaseID int primary key,
 vehicleID int,
@@ -102,6 +105,8 @@ insert into lease values
 
 select * from lease;
 
+
+-- creating table payment
 
 create table payment(
 paymentID int primary key,
